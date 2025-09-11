@@ -1,0 +1,15 @@
+{
+  "name": "machinelearning-regressao",
+  "version": "1.0.0",
+  "description": "### Aprendizagem de Máquina - 10/09/2025",
+  "main": "regressao.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
+}
