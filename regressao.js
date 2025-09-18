@@ -45,7 +45,7 @@ function regressaoLinear(x, y) {
 }
 
 // === Leitura dos dados fictícios do Excel ===
-const workbook = XLSX.readFile("usd_brl_selic_ficticio_2000_2025.xlsx");
+const workbook = XLSX.readFile("usd_brl_selic.xlsx");
 const sheetName = workbook.SheetNames[0];
 const sheet = workbook.Sheets[sheetName];
 const data = XLSX.utils.sheet_to_json(sheet);
